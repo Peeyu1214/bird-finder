@@ -1,0 +1,97 @@
+.carouselh
+{
+    height:650px;
+}
+
+.bg-color
+{
+    background-color:black;
+}
+.circle{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-top:50px;
+    height:50px;
+    backdrop-filter: blur(50px);
+    height:300px;
+    margin-bottom:60px;
+}
+
+.circle img{
+    height:200px;
+    width:200px;
+    margin-top:50px;
+    border-radius:100px;
+    border:2px solid black;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.circle img:hover{
+
+    border-radius:250px;
+    scale:1.2;
+    transition-duration: 1s;
+    
+}
+
+.t
+{
+    top:400px;
+}
+
+
+
+ 
+
+@media only screen and (max-width:700px)
+{
+    .carouselh
+{
+    height:258px;
+}
+    .t
+{
+    top:200px;
+}
+.circle
+{
+    margin-top:20px;
+}
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
