@@ -59,6 +59,11 @@
 {
     margin-top:20px;
 }
+.image-box
+{
+  max-width:100%;
+  height:auto;
+}
 }
 .row {
     display: flex;
@@ -93,5 +98,30 @@
       flex: 100%;
       max-width: 100%;
     }
+  }
+.box
+  {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+  }
+
+  .image-box
+  {
+    margin-top:20px;
+    width:400px;
+    height:auto;
+  } 
+
+  .desc-box
+  {
+   margin:20px;
+  }
+  .container
+  {
+    margin-top:20px;
+    background-color: white;
+    border-radius:15px;
   }
   
