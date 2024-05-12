@@ -118,6 +118,10 @@
   {
    margin:20px;
   }
+  .desc-box article
+  {
+    display:flex;
+  }
   .container
   {
     margin-top:20px;
